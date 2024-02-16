@@ -40,3 +40,9 @@ jobs:
       with:
         name: reports
         path: '*/build/reports'
+
+    - name: Upload APK 
+      uses: actions/upload-artifact@v2 
+      with:
+        name: signal-apk
+        path: app/build/outputs/apk/release/app-release.apk
