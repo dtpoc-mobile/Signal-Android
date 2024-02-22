@@ -6,7 +6,7 @@ android {
   namespace = "org.signal.qrtest"
 
   defaultConfig {
-    applicationId = "org.signal.qrtest"
+    applicationId = "org.signal.qrtest.dtpoc"
   }
 }
 
